@@ -1,4 +1,4 @@
 package com.codeline.Task1.Service;
 
-public class GameController {
+public class GameService {
 }
