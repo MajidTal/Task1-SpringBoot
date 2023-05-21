@@ -1,4 +1,4 @@
 package com.codeline.Task1.Repository;
 
-public class LeaderboardRepository {
+public interface GameInterface {
 }
