@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @Getter
 @Data
 @Entity
-public class Management {
+public class Management extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     Long id;
