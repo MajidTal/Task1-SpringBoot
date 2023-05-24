@@ -13,8 +13,6 @@ import javax.persistence.*;
 @Entity
 
 public class Game extends BaseEntity{
-
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
