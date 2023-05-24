@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Data
 @Entity
 
-public class Game {
+public class Game extends BaseEntity{
 
 
     @Id
