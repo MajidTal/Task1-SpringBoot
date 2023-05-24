@@ -17,9 +17,9 @@ public class Game extends BaseEntity{
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private int team1;
+    private String team1;
 
-    private int team2;
+    private String team2;
 
     private int score1;
 
