@@ -2,14 +2,12 @@ package com.codeline.Task1.Controller;
 import com.codeline.Task1.Models.Game;
 import com.codeline.Task1.Service.GameService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
+import java.util.List;
 
 
 @RestController
@@ -38,6 +36,10 @@ public class GameController {
     {
         createGame();
     }
+
+    @GetMapping("game/get")
+    public List<Game> getGame () {return gameService.getGame();}
+
 
 
 
