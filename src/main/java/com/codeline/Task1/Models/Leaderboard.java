@@ -14,7 +14,7 @@ import javax.persistence.Id;
 @Getter
 @Data
 @Entity
-public class Leaderboard {
+public class Leaderboard extends BaseEntity{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
