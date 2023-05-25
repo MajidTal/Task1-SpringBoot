@@ -22,7 +22,7 @@ public class Registration extends BaseEntity {
 
     private String username;
 
-    private String password;
+    private int password;
 
     private String teamName;
 
